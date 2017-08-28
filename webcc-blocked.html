@@ -29,10 +29,10 @@
 		</p>
 		<h1>Oops! Access Blocked</h1>
 		<p>The page you are looking for has been blocked. Please contact your network administrator.</p>
-		<p><b>URL:</b> {$smarty.get.url|escape}<br />
-		<b>Category:</b> {$smarty.get.category|escape}<br />
-		<b>Reputation:</b> {$smarty.get.reputation|escape}<br />
-		<b>User (IP address):</b> {$smarty.get.user|escape}<br />
+		<p><b>URL:</b> {$smarty.get.dest_ip|escape}<br />
+		<b>Category:</b> {$smarty.get.web_cat|escape}<br />
+		<b>Reputation:</b> {$smarty.get.web_rep|escape}<br />
+		<b>User (IP address):</b> {$smarty.get.user_ip|escape}<br />
 		<i>WebCC content filtering</i></p>
 		</div>
 	</body>
